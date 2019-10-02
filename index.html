@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html class="no-js" lang="no">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+	body { 
+		margin: 50px; 
+		font-family: 'Roboto', sans-serif;
+	}
+	label { display: block; line-height: 2; }
+	input { margin-bottom: 40px; }
+  </style>
+	
+  <title>Select</title>
+ </head>
+
+ <body>
+  <form id="select-form">
+   <label for="test">Label</label>
+   <input type="text" value="tab">
+
+   <label for="task-status">Task status</label>
+   <gl-select id="task-status" width="200px">
+   	<option>Option 1</option>
+   	<option>Option 2</option>
+   	<option selected="selected">Option 3</option>
+   	<option>Option 4</option>	
+   </gl-select>
+
+  </form>
+
+  <script type="text/javascript" src="gl-select.js"></script>
+  <script type="text/javascript">
+
+	// const ts2 = document.createElement('gl-select');
+
+	// var o1 = document.createElement('option');
+	// o1.innerHTML = 'Option 1';
+	// ts2.appendChild(o1);
+
+	// document.body.appendChild(ts2);
+
+	// console.log(document.querySelector('gl-select').value);
+
+  </script>
+ </body>
+</html>
